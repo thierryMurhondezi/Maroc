@@ -192,3 +192,57 @@
         flex-grow: 0;
       }
     }
+
+    /* Banner */
+    
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50rem;
+        background: url("https://content.codecademy.com/courses/freelance-1/unit-6/project-morocco/banner.jpg") center center no-repeat;
+        background-size: cover;
+        color: #ffb78c;
+      }
+
+      .banner h2 {
+        padding: .55rem 0;
+        border-top: 4px solid #ffb78c;
+        border-bottom: 4px solid #ffb78c;
+        font-size: 1.44rem;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-family:'Work Sans','arial', sans-serif;
+      
+      }
+      
+      .banner h1 {
+        padding-top: 1.11rem;
+        font-size: 11rem;
+        font-weight: 900;
+        font-family: 'abril fatface', sans serif;
+      
+      }
+      
+      @media only screen and (max-width: 750px) {
+        .banner {
+          height: 40rem;
+        }
+      
+        .banner h1 {
+          font-size: 8rem;
+        }
+      }
+      
+      @media only screen and (max-width: 530px) {
+        .banner {
+          height: 30rem;
+        }
+      
+        .banner h1 {
+          font-size: 6rem;
+        }
+      }
+      
+      
