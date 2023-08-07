@@ -244,5 +244,14 @@
           font-size: 6rem;
         }
       }
+
+      /* Journal */
+    
+    .journal {
+        padding: 0 25% 4rem 25%;
+        background-color: rgb(254, 231, 218);
+        color: #4a4a4a;
+        font-family:'Work Sans', serif;
+      }
       
       
