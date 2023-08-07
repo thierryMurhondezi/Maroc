@@ -253,5 +253,117 @@
         color: #4a4a4a;
         font-family:'Work Sans', serif;
       }
+
+      .photo {
+        width: 75%;
+        padding: 1.11rem;
+        border-radius: 5px;
+        margin: 0 auto 4.44rem auto;
+        background-color: white;
+      }
+      
+      .photo .image-container {
+        overflow: hidden;
+        margin-bottom: 1.11rem;
+      }
+      
+      .photo .image-container img {
+        width: 100%;
+      }
+      
+      .photo .caption {
+        font-style: italic;
+        font-family:'Merriweather', serif;
+      }
+      
+      .photo.first {
+        position: relative;
+        top: -2.77rem;
+        margin-bottom: 1.67rem;
+      }
+      
+      .journal p {
+        padding-bottom: 2.77rem;
+        font-size: 1.5rem;
+        line-height: 1.4;
+      }
+      
+      .journal .first-letter {
+        float: left;
+        padding-right: 1.4rem;
+        font-family: "Abril Fatface", serif;
+        font-size: 7.44rem;
+        color: #10b0d8;
+        line-height: 0.87;
+      }
+      
+      .quote {
+        display: block;
+        padding: 4.44rem 0;
+        margin-bottom: 3.33rem;
+        border-top: 4px solid black;
+        border-bottom: 4px solid black;
+        text-align: center;
+        font-size: 3.55rem;
+        font-weight: 800;
+        line-height:1.2;
+      }
+      
+      @media only screen and (max-width: 680px) {
+        .journal {
+          padding: 0 10% 4rem 10%;
+        }
+      }
+      
+      /* Footer */
+      
+      footer {
+        display: flex;
+        align-items: center;
+        padding: 0 1%;
+        background-color: #212121;
+        line-height:1.5;
+        font-family:'croissant one', 'merriweather', serif;
+      }
+      
+      footer .image-container {
+        width: 400px;
+      }
+      
+      footer .content {
+        flex-grow: 1;
+        font-style: italic;
+        color: #9b9b9b;
+      }
+      
+      footer p {
+        padding-bottom: 1.66rem;
+      
+      }
+      
+      footer p:last-child {
+        padding-bottom: 0;
+      }
+      
+      footer .author {
+        color: #ffb78c;
+      }
+      
+      footer em {
+        color: #cfcfcf;
+      }
+      
+      @media only screen and (max-width: 750px) {
+        footer {
+          flex-direction: column;
+          padding: 0 10% 2rem 10%;
+        }
+      
+        footer .image-container {
+          height: 300px;
+          margin-bottom: 2rem;
+          overflow: hidden;
+        }
+      }
       
       
